@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <form action="/members/new" method="post">
+        <div class="form-group">
+            <label for="name">이름</label> <!-- "name"부분을 보고 MemberForm에 있는 setName()을 통해 값을 넣어줌 -->
+            <input type="text" id="name" name="name" placeholder="이름을
+입력하세요">
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
